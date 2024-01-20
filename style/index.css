@@ -1,0 +1,335 @@
+body{
+    background-color: #FAEED1;
+    color:#607274;
+}
+body p{font-family: 'Dosis', sans-serif;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+
+
+#nav-bar{
+    display:flex;
+    position: fixed;
+    color: black;
+    z-index: 4;
+}
+.IT{
+    color: #FAEED1;
+    font-size: 50px;
+    padding-top:1%
+}
+.itt{
+    color: #FAEED1;
+}
+.it:hover{background-color: #B2A59B;}
+.it{
+    font-size: 30px;
+    /* display: inline-block; */
+    align-content: center;
+    height:60px;
+    padding-top:30px;
+    font-weight: 500;
+}
+.sym{
+    padding-top:30px;
+    height: 60px;
+    align-content: center;
+}
+#container-nav{
+    display:flex;
+    z-index: 4;
+    position: fixed;
+}
+.sign{
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    position: relative;
+    top:200px;
+    left:400px
+}
+
+#container-navv{
+    display:flex;
+    padding-left: 55%;
+    
+    gap: 50px;
+    
+    background-color: #607274;
+    color: rgb(255, 255, 255);
+    /* position */
+    position:fixed;
+    width:100%;
+    /* font */
+
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    z-index: 3;
+}
+
+#container-navv .it img{
+    align-items: center;
+}
+
+
+
+
+.container-items{
+    align-items:center;
+    display: block;
+}
+
+/* Next */
+#NEXT{
+    background-image: url("/img/backkk.jpg");
+    height: 100vh;
+    width: 100%;
+    z-index: 2  ;
+}
+.well{
+    font-size: 50px;
+    position: relative;
+    top:100px;
+    z-index: 3;
+
+}
+.Titlee{
+    z-index: 2;
+    position: relative;
+    top:50%;
+    background-color: rgb(248, 247, 247);
+}
+#cen{
+    position: relative;
+    z-index: 2;
+    top:300px;
+    left:300px
+}
+
+/* Body content */
+#bodycontent{
+    margin-top: 10%
+}
+#intro{
+    display:flex;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#Introduction{
+    color:#607274;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: #DED0B6;
+    padding-top: 5%;
+    padding-bottom:1%;
+    border:solid #3f3e3e 1px;
+    align-items: center;
+   
+}
+#introduction p{
+    font-size: 5px;
+    
+}
+
+
+/* intro nhỏ */
+.intro p{font-size:20px ;}
+
+.intro h1{
+    font-size:60px
+}
+
+.intro{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+
+.con{
+    display:flex;
+    justify-content: space-around;
+}
+.con p{
+    font-size: larger;
+}
+.slides h3{
+    font-size: 30px;
+    color:#607274;
+    font-weight: 600;
+}
+.slides img{
+    width: 350px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius:70px;
+    border-top-left-radius:70px ;
+    border-bottom-right-radius:70px ;
+    padding-left:0%;
+    padding-right:0%;
+    
+
+
+}
+.slides{
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* section3 */
+#relax{
+    margin-top: 7%;
+    background-image: url("/img/yoga2.png");
+    height: 90vh
+}
+#En{
+    position: relative;
+    top: 300px;
+    padding-left: 50%;
+    color: white;
+}
+#En h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center  ;
+}
+#En p{
+    font-size: 20px;
+}
+#En button{
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+/*4*/
+#relaxx{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    margin-right:5%;
+    margin-left: 5%;
+}
+#text{
+    padding-top: 10%;
+    padding-right: 5%;
+    
+}
+#image1 img{
+    height:300px;
+    width:400px;
+    border-top-right-radius:70px ;
+    border-bottom-left-radius:70px  ;
+    border-top-left-radius:70px  ;
+    border-bottom-right-radius:70px  ;
+    
+    
+    
+}
+
+/* 5 */
+#nutri{
+    margin-top: 7%;
+    background-image: url("/img/nutrii.jpg");
+    height:90vh
+}
+#nu{
+    position: relative;
+    top: 300px;
+    padding-right: 40%;
+    padding-left: 20%;
+    color: white;
+}
+#nu h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center  ;
+}
+#nu p{
+    font-size: 20px;
+}
+#nu button{
+    font-size: 20px;
+    margin-top: 2%;
+}
+/* swiper */
+#swipee{
+    margin-top:20%;
+    display:flex;
+    margin-left: 5%;
+}
+#small-content{
+    margin-right: 5%;
+    padding-top: 5%;
+}
+#small-content h1{
+    font-size: 50px;
+}
+/* 6 */
+#test{
+    margin-top: 12%;
+        margin-bottom: 12%;
+        display: flex;
+        margin-right:5%;
+        margin-left: 5%;
+}
+#image2 img{
+    height:300px;
+    width:400px;
+    margin-left:5%;
+    border-top-right-radius:70px ;
+    border-bottom-left-radius:70px  ;
+    border-top-left-radius:70px  ;
+    border-bottom-right-radius:70px  ;
+}
+#textt{
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left:5%
+    
+}
+
+/* FOOTER */
+.footercontainer{
+    
+    background-color: #3f3e3e;
+    color:#FAEED1;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+.footer-items1{
+    display: flex;
+    padding-left: 40%;
+    gap: 50px;
+    padding-top: 30px;
+    margin-bottom: 5%;
+}
+.ulteam{
+    display:flex;
+    gap:50px;
+    padding-left: 30%;
+    padding-top: 20px;
+    margin-bottom: 5%;
+}
+.footer-items4{
+    padding-bottom: 5%;
+}
